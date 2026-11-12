@@ -1,0 +1,17 @@
+{
+  "name": "cmds-educa-backend",
+  "version": "1.0.0",
+  "description": "Backend PADEDUCA (ADM_EDUCA + ADM_NOTAS) sobre PostgreSQL 18 (bd_cmds_educa)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup-db": "node setupEducaPostgres.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.3"
+  }
+}
